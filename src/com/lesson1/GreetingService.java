@@ -10,9 +10,7 @@ public class GreetingService
         }
         else
         {
-            System.out.println("Please enter one argument11.rthjdgtfjgkjhdfk,hk");
+            System.out.println("Please enter one argument.");
         }
-
-        int a = 0;
     }
 }
