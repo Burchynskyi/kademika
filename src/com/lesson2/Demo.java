@@ -2,42 +2,13 @@ package com.lesson2;
 
 public class Demo
 {
-    private String color;
-    private int crew;
-    private  int maxSpeed;
-
-    public void printTankInfo()
+    public static void main(String[] args)
     {
-        System.out.println();
-    }
+        Tank tank = new Tank();
+        tank.setColor("Green");
+        tank.setCrew(2);
+        tank.setMaxSpeed(30);
 
-    public String getColor()
-    {
-        return color;
-    }
-
-    public void setColor(String color)
-    {
-        this.color = color;
-    }
-
-    public int getCrew()
-    {
-        return crew;
-    }
-
-    public void setCrew(int crew)
-    {
-        this.crew = crew;
-    }
-
-    public int getMaxSpeed()
-    {
-        return maxSpeed;
-    }
-
-    public void setMaxSpeed(int maxSpeed)
-    {
-        this.maxSpeed = maxSpeed;
+        tank.printTankInfo();
     }
 }
