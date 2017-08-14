@@ -1,4 +1,4 @@
-package com.lesson2;
+package com.lesson2.task1;
 
 public class Demo
 {
